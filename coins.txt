@@ -1,0 +1,9 @@
+ethereum
+bitcoin
+polkadot
+chainlink
+uniswap
+aave
+cosmos
+
+
