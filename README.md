@@ -12,16 +12,9 @@ and you get the file table_coins_list.csv.
 You need to install the package pycoingecko before running it
 You open table_coins_list.csv and the first column is the id, the second colum is the symbol, the hitrd column is the name
 You choose the coins and out the ids in the file for the coin list
-For example you create the txt file coins.txt and you put each id of coin per line like below
+For example you create the txt file coins.txt and you put each id of coin per line like below ( I have out the escape '\n' for the ewn line becasue the README does not allow to ouput the new line)
 
-ethereum
-bitcoin
-
-polkadot
-
-chainlink
-
-uniswap
+'ethereum\nbitcoin\npolkadot\nchainlink\nuniswap\n'
 
 Then you had to prepare the second txt file with the deltas of time , each delta is indicated in number of days as of today and you have to put the list of amount of days in the first row of the txt file and of course the numbers separated by comma like below
 
