@@ -15,7 +15,6 @@ You choose the coins and out the ids in the file for the coin list
 For example you create the txt file coins.txt and you put each id of coin per line like below
 
 ethereum
-
 bitcoin
 
 polkadot
