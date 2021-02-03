@@ -15,9 +15,13 @@ You choose the coins and out the ids in the file for the coin list
 For example you create the txt file coins.txt and you put each id of coin per line like below
 
 ethereum
+
 bitcoin
+
 polkadot
+
 chainlink
+
 uniswap
 
 Then you had to prepare the second txt file with the deltas of time , each delta is indicated in number of days as of today and you have to put the list of amount of days in the first row of the txt file and of course the numbers separated by comma like below
