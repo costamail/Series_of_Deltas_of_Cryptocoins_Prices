@@ -52,7 +52,6 @@ print("the deltas in days for the counting of the price variation in percentage 
 # the function below returns the coin price for the serie of dates
 def percent(coin,date):
 	int_coin=coin
-	#print(int_coin,'dentropercent')
 	int_date=date
 	array_price_inpast=cg.get_coin_history_by_id(int_coin,int_date)
 	if not 'market_data' in array_price_inpast.keys():
@@ -85,15 +84,12 @@ print('The list of cryptocoins ' , coin_rows)
 for loop_coin in coin_rows:
 	diz={}
 	diz['coin']=loop_coin
-	#print(loop_coin, ' dentro loop_coin')
 	#loop_pc_array={}
 	#for key in date_keys:
 	#	loop_pc_array[key]=None
 	for key,loop_date in zip(date_keys,pastdate_array):
 		time.sleep(1)
-		#print(loop_date)
 		percent_number=percent(loop_coin,loop_date)
-		#print(percent_number, ' dentro loop_date')
 		diz[key]=percent_number
 	ll.append(diz)
 
