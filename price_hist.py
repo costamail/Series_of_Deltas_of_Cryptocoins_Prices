@@ -99,7 +99,7 @@ for loop_coin in coin_rows:
 
 
 #Creates the csv file with the table
-with open('/home/pippo/python/pycoingecko/tabelle_price_history.csv','wt') as fh:
+with open('tabelle_price_history.csv','wt') as fh:
 	csvobj=csv.DictWriter(fh, list(ll[0].keys()))
 	csvobj.writeheader()
 	csvobj.writerows(ll)
